@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Charles Moloney</title> <!-- thank you Trinity for the template--> 
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+    
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }
+            .blog-header {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 1rem;
+                max-width: 1300px;
+                margin: auto;
+                position: relative;
+            }
+            .blog-container {
+                max-width: 1300px;
+                margin: 2rem auto;
+                padding: 2rem;
+                background-color: #fff;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+            }
+            .blog-title {
+                color: #ffffff;
+                margin-top: 20px;
+            }
+            .blog-subtitle {
+                color: #666;
+            }
+            .blog-image {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 1rem;
+            }
+            .blog-paragraph {
+                line-height: 1.6;
+            }
+            .blog-tag {
+                background-color: #333;
+                color: #fff;
+                padding: 0.2rem 0.5rem;
+                border-radius: 3px;
+                font-size: 0.8rem;
+                margin-bottom: 1rem;
+                display: inline-block;
+            }
+        </style>
+</head>
+<body>
+    <!-- Nav -->
+    <nav id="nav" style="position: sticky;">
+        <ul class="container">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+	</nav>
+
+    <header class="blog-header">
+        <h1 class="blog-title">Discussing Data Taxonomy</h1>
+    </header>
+    <div class="blog-container">
+        <div class="blog-tag">#FreeForm</div>
+        <img class="blog-image" src="images/taxonomy.png" alt="Feature Image">
+        
+        <section>
+            <h2 class="blog-subtitle">Our Audience ≠ Us</h2>
+            <p class="blog-paragraph">
+                As a software engineer, something as milquetoast as data taxonomy actually sounds quite thrilling to me. I love all the different ways data and information can
+                go together, and it's incredibly fascinating to study new ways to present said info. In the computer science world, this is not an uncommon take. Unfortunately
+                (or fortunately), not everyone who uses a website involving a data interface is in love with coding and data science. There is immense research into creating better 
+                data structures and databases, but not nearly enough time is spent understanding the best way to present this information to a layperson. This is exactly the issue
+                B. Shneiderman tries to tackle in their paper "The eyes have it: a task by data type taxonomy for information visualizations," where they break down many different ways 
+                to present various types of data structures. I would highly recommend checking it out at some point -- it's a fascinating read!
+            </p>
+        </section>
+
+        <h2 class="blog-subtitle">A Turning Point</h2>
+            <p class="blog-paragraph">
+                What stood out to me the most in said paper was its discussion on boolean logic versus the English langauge, which I feel is emblematic of the current problem in 
+                the computer science world for user interfaces. Shneiderman explains how the way we use and/or logic in our data queries and code is the exact opposite to how we 
+                use it in the real world. In the computer science world and set theory, AND is used to narrow down a search, while OR expands it, whereas if I were to say in a plain 
+                English conversation that I was looking for places to eat in Lincoln and Omaha, people would know exactly what I meant. When we test different ways to query that use 
+                more clear language for narrowing it down, almost everyone who uses said systems prefers it to the boolean logic alternative says Shneiderman. This was a major 
+                turning point for me in terms of what I prioritize in my interfaces. We need to code with empathy and understanding, putting ourselves in our audience's shoes.
+                If we code for ourselves, we will end up with a product that we enjoy -- likely very few others will feel the same.
+            </p>
+        </section>
+        
+        <section>
+            <h2 class="blog-subtitle">Credit</h2>
+            <p class="blog-paragraph">
+                B. Shneiderman, "The eyes have it: a task by data type taxonomy for information visualizations," Proceedings 1996 IEEE Symposium on Visual Languages, Boulder, CO, USA, 1996, pp. 336-343, doi: 10.1109/VL.1996.545307.
+            </p>
+        </section>
+    </div>
+
+</body>
+</html>
