@@ -965,6 +965,7 @@ input, select, textarea {
 				.row {
 					margin-top: -25px;
 					margin-left: -25px;
+					/* height: 100% */
 				}
 
 					.row > * {
@@ -2117,7 +2118,7 @@ input, select, textarea {
 		}
 
 			#top .image img {
-				border-radius: 100%;
+				/* border-radius: 100%; */
 			}
 
 		#top h1 {
