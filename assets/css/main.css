@@ -124,7 +124,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #d84dd8;
 	}
 
 	i, em {
@@ -1996,7 +1996,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #000000;
 		}
 
 		.wrapper.style2 {
@@ -2005,7 +2005,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
+			background-color: #f6caf9;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
